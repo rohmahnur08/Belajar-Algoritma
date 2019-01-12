@@ -1,0 +1,15 @@
+#include<iostream.h>
+
+void main()
+{
+int r;
+float h, phi=3.14;
+
+cout<<"\t=Program Penghitung Luas Lingkaran=\n";
+cout<<"\t===================================\n"<<endl;
+cout<<"Masukkan nilai jari-jari = \n";
+cin>>r;
+
+h = phi*r*r;
+cout<<"Maka luas lingkaran adalah "<<h;
+}                                 	
